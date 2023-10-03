@@ -1,0 +1,15 @@
+tracks {
+    display: table;
+}
+
+track {
+    display: table-row;
+}
+
+length, track > title {
+    display: table-cell;
+}
+
+* {
+    border: thin solid red;
+}

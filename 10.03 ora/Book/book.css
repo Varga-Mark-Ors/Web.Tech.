@@ -1,0 +1,82 @@
+*{
+    display: block;
+    /*border: thin solid red;*/
+}
+
+book {
+    background-color: cornsilk;
+    counter-reset: chapter-number footnote-number;
+}
+
+author, title {
+    text-align: center;
+    padding: 0.5em;
+}
+
+author {
+    font-variant: small-caps;
+    font-size: x-large;
+}
+
+book > title {
+    font-size: xx-large;
+}
+
+chapter {
+    margin: 0.5em;
+}
+
+title + chapter {
+    border-top: thin solid black;
+}
+
+chapter > title {
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+chapter > title::before {
+    content: counter(chapter-number, upper-roman) ". ";
+    counter-increment: chapter-number;
+}
+
+para {
+    text-indent: 1em;
+    padding: 0.5em;
+}
+
+title + para {
+    text-indent: 0;
+}
+
+title + para::first-letter {
+    font-size: 1.5em;
+}
+
+para:hover {
+    background-color: slateblue;
+    color: white;
+}
+
+footnote {
+    display: inline;
+    font-size: 0;
+    vertical-align: super;
+}
+
+footnote::before {
+    content: "[" counter(footnote-number) "]";
+    counter-increment: footnote-number;
+    font-size: small;
+}
+
+footnote:hover {
+    font-size: large;
+    background-color: salmon;
+    padding: 0.5em;
+}
+
+footnote:hover::before {
+    font-size: large;
+    content: "[" counter(footnote-number) "] ";
+}
