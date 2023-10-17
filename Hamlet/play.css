@@ -1,0 +1,17 @@
+* {
+    border: thin solid red; /* asfsaf */
+    display: block;
+}
+
+play {
+    background-color: ghostwhite;
+}
+
+title, author {
+    font-variant: small-caps;
+    text-align: center;
+}
+
+play > title {
+    font-size: xx-large;
+}
