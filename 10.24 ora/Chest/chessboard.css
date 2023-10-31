@@ -28,3 +28,24 @@ table tr:nth-child(odd) > td:nth-last-of-type(even) {
 table tr:nth-child(even) > td:nth-last-of-type(odd) {
     background-color: lightgray;
 }
+
+table tr:nth-child(1) > td {
+    border-top: medium solid black;
+}
+
+table tr:last-child > td {
+    border-bottom: medium solid black;
+}
+
+table td:first-of-type {
+    border-left: medium solid black;
+}
+
+table td:last-of-type {
+    border-right: medium solid black;
+}
+
+table {
+   /* border-collapse: collapse;*/
+   border-spacing: 0;
+}
