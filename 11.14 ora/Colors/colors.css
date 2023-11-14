@@ -1,0 +1,314 @@
+body {
+  margin: 0;
+}
+
+div.columns {
+  height: 100vh;
+  display: flex;
+}
+div.columns > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+div.columns > div:nth-child(1) {
+  background-color: pink;
+}
+div.columns > div:nth-child(1)::before {
+  content: "pink";
+}
+div.columns > div:nth-child(2) {
+  background-color: #ffc0c3;
+}
+div.columns > div:nth-child(2)::before {
+  content: "#ffc0c3";
+}
+div.columns > div:nth-child(3) {
+  background-color: #ffc4c0;
+}
+div.columns > div:nth-child(3)::before {
+  content: "#ffc4c0";
+}
+div.columns > div:nth-child(4) {
+  background-color: #ffccc0;
+}
+div.columns > div:nth-child(4)::before {
+  content: "#ffccc0";
+}
+div.columns > div:nth-child(5) {
+  background-color: #ffd4c0;
+}
+div.columns > div:nth-child(5)::before {
+  content: "#ffd4c0";
+}
+div.columns > div:nth-child(6) {
+  background-color: #ffdcc0;
+}
+div.columns > div:nth-child(6)::before {
+  content: "#ffdcc0";
+}
+div.columns > div:nth-child(7) {
+  background-color: #ffe3c0;
+}
+div.columns > div:nth-child(7)::before {
+  content: "#ffe3c0";
+}
+div.columns > div:nth-child(8) {
+  background-color: #ffebc0;
+}
+div.columns > div:nth-child(8)::before {
+  content: "#ffebc0";
+}
+div.columns > div:nth-child(9) {
+  background-color: #fff3c0;
+}
+div.columns > div:nth-child(9)::before {
+  content: "#fff3c0";
+}
+div.columns > div:nth-child(10) {
+  background-color: #fffac0;
+}
+div.columns > div:nth-child(10)::before {
+  content: "#fffac0";
+}
+div.columns > div:nth-child(11) {
+  background-color: #fcffc0;
+}
+div.columns > div:nth-child(11)::before {
+  content: "#fcffc0";
+}
+div.columns > div:nth-child(12) {
+  background-color: #f4ffc0;
+}
+div.columns > div:nth-child(12)::before {
+  content: "#f4ffc0";
+}
+div.columns > div:nth-child(13) {
+  background-color: #ecffc0;
+}
+div.columns > div:nth-child(13)::before {
+  content: "#ecffc0";
+}
+div.columns > div:nth-child(14) {
+  background-color: #e5ffc0;
+}
+div.columns > div:nth-child(14)::before {
+  content: "#e5ffc0";
+}
+div.columns > div:nth-child(15) {
+  background-color: #ddffc0;
+}
+div.columns > div:nth-child(15)::before {
+  content: "#ddffc0";
+}
+div.columns > div:nth-child(16) {
+  background-color: #d5ffc0;
+}
+div.columns > div:nth-child(16)::before {
+  content: "#d5ffc0";
+}
+div.columns > div:nth-child(17) {
+  background-color: #ceffc0;
+}
+div.columns > div:nth-child(17)::before {
+  content: "#ceffc0";
+}
+div.columns > div:nth-child(18) {
+  background-color: #c6ffc0;
+}
+div.columns > div:nth-child(18)::before {
+  content: "#c6ffc0";
+}
+div.columns > div:nth-child(19) {
+  background-color: #c0ffc2;
+}
+div.columns > div:nth-child(19)::before {
+  content: "#c0ffc2";
+}
+div.columns > div:nth-child(20) {
+  background-color: #c0ffca;
+}
+div.columns > div:nth-child(20)::before {
+  content: "#c0ffca";
+}
+div.columns > div:nth-child(21) {
+  background-color: #c0ffd1;
+}
+div.columns > div:nth-child(21)::before {
+  content: "#c0ffd1";
+}
+div.columns > div:nth-child(22) {
+  background-color: #c0ffd9;
+}
+div.columns > div:nth-child(22)::before {
+  content: "#c0ffd9";
+}
+div.columns > div:nth-child(23) {
+  background-color: #c0ffe1;
+}
+div.columns > div:nth-child(23)::before {
+  content: "#c0ffe1";
+}
+div.columns > div:nth-child(24) {
+  background-color: #c0ffe8;
+}
+div.columns > div:nth-child(24)::before {
+  content: "#c0ffe8";
+}
+div.columns > div:nth-child(25) {
+  background-color: #c0fff0;
+}
+div.columns > div:nth-child(25)::before {
+  content: "#c0fff0";
+}
+div.columns > div:nth-child(26) {
+  background-color: #c0fff8;
+}
+div.columns > div:nth-child(26)::before {
+  content: "#c0fff8";
+}
+div.columns > div:nth-child(27) {
+  background-color: #c0feff;
+}
+div.columns > div:nth-child(27)::before {
+  content: "#c0feff";
+}
+div.columns > div:nth-child(28) {
+  background-color: #c0f7ff;
+}
+div.columns > div:nth-child(28)::before {
+  content: "#c0f7ff";
+}
+div.columns > div:nth-child(29) {
+  background-color: #c0efff;
+}
+div.columns > div:nth-child(29)::before {
+  content: "#c0efff";
+}
+div.columns > div:nth-child(30) {
+  background-color: #c0e7ff;
+}
+div.columns > div:nth-child(30)::before {
+  content: "#c0e7ff";
+}
+div.columns > div:nth-child(31) {
+  background-color: #c0e0ff;
+}
+div.columns > div:nth-child(31)::before {
+  content: "#c0e0ff";
+}
+div.columns > div:nth-child(32) {
+  background-color: #c0d8ff;
+}
+div.columns > div:nth-child(32)::before {
+  content: "#c0d8ff";
+}
+div.columns > div:nth-child(33) {
+  background-color: #c0d0ff;
+}
+div.columns > div:nth-child(33)::before {
+  content: "#c0d0ff";
+}
+div.columns > div:nth-child(34) {
+  background-color: #c0c8ff;
+}
+div.columns > div:nth-child(34)::before {
+  content: "#c0c8ff";
+}
+div.columns > div:nth-child(35) {
+  background-color: #c0c1ff;
+}
+div.columns > div:nth-child(35)::before {
+  content: "#c0c1ff";
+}
+div.columns > div:nth-child(36) {
+  background-color: #c7c0ff;
+}
+div.columns > div:nth-child(36)::before {
+  content: "#c7c0ff";
+}
+div.columns > div:nth-child(37) {
+  background-color: #cfc0ff;
+}
+div.columns > div:nth-child(37)::before {
+  content: "#cfc0ff";
+}
+div.columns > div:nth-child(38) {
+  background-color: #d6c0ff;
+}
+div.columns > div:nth-child(38)::before {
+  content: "#d6c0ff";
+}
+div.columns > div:nth-child(39) {
+  background-color: #dec0ff;
+}
+div.columns > div:nth-child(39)::before {
+  content: "#dec0ff";
+}
+div.columns > div:nth-child(40) {
+  background-color: #e6c0ff;
+}
+div.columns > div:nth-child(40)::before {
+  content: "#e6c0ff";
+}
+div.columns > div:nth-child(41) {
+  background-color: #eec0ff;
+}
+div.columns > div:nth-child(41)::before {
+  content: "#eec0ff";
+}
+div.columns > div:nth-child(42) {
+  background-color: #f5c0ff;
+}
+div.columns > div:nth-child(42)::before {
+  content: "#f5c0ff";
+}
+div.columns > div:nth-child(43) {
+  background-color: #fdc0ff;
+}
+div.columns > div:nth-child(43)::before {
+  content: "#fdc0ff";
+}
+div.columns > div:nth-child(44) {
+  background-color: #ffc0f9;
+}
+div.columns > div:nth-child(44)::before {
+  content: "#ffc0f9";
+}
+div.columns > div:nth-child(45) {
+  background-color: #ffc0f2;
+}
+div.columns > div:nth-child(45)::before {
+  content: "#ffc0f2";
+}
+div.columns > div:nth-child(46) {
+  background-color: #ffc0ea;
+}
+div.columns > div:nth-child(46)::before {
+  content: "#ffc0ea";
+}
+div.columns > div:nth-child(47) {
+  background-color: #ffc0e2;
+}
+div.columns > div:nth-child(47)::before {
+  content: "#ffc0e2";
+}
+div.columns > div:nth-child(48) {
+  background-color: #ffc0da;
+}
+div.columns > div:nth-child(48)::before {
+  content: "#ffc0da";
+}
+div.columns > div:nth-child(49) {
+  background-color: #ffc0d3;
+}
+div.columns > div:nth-child(49)::before {
+  content: "#ffc0d3";
+}
+div.columns > div:nth-child(50) {
+  background-color: pink;
+}
+div.columns > div:nth-child(50)::before {
+  content: "pink";
+}/*# sourceMappingURL=colors.css.map */
