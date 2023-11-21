@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Hogwarts Registration Form</title>
+    <link href="./Hogwarts Registration Form_files/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./Hogwarts Registration Form_files/hogwarts-form.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hogwarts Registration Form</h1>
+        <form method="post" enctype="multipart/form-data" action="https://webhook.site/your-unique-url">
+            <div>
+                <label class="form-label" for="name">Name</label>
+                <input class="form-control" type="text" name="name" id="name" required="" placeholder="e.g., Harry James Potter ">
+            </div>
+            <div>
+                <label class="form-label" for="dob">Date of birth</label>
+                <input class="form-control-sm" type="date" name="dob" id="dob" required="">
+            </div>
+            <div>
+                <label for="house">House</label>
+                <select name="house" id="house" required="">
+                    <option value="">--Please choose an option--</option>
+                    <option value="gryffindor">Gryffindor</option>
+                    <option value="hufflepuff">Hufflepuff</option>
+                    <option value="ravenclaw">Ravenclaw</option>
+                    <option value="slytherin">Slytherin</option>
+                </select>
+            </div>
+            <div>
+                <div>
+                    <input type="checkbox" name="has-pet" id="has-pet" value="yes">
+                    <label for="has-pet">I hereby state that I have a companion pet.</label>
+                </div>
+                <fieldset>
+                    <legend>Companion pet</legend>
+                    <div>
+                        <label for="pet-species">Species</label>
+                        <input type="text" name="pet-species" id="pet-species" placeholder="e.g., owl">
+                    </div>
+                    <div>
+                        <label for="pet-name">Name</label>
+                        <input type="text" name="pet-name" id="pet-name" placeholder="e.g., Hedwig">
+                    </div>
+                </fieldset>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" pattern=".+@hogwarts\.ac\.uk" placeholder="e.g., hjp@hogwarts.ac.uk">
+                <div>An email address ending with <code>@hogwarts.ac.uk</code> is required.</div>
+            </div>
+            <div>
+                <label for="comments">Comments</label>
+                <textarea name="comments" id="comments" rows="5" maxlength="200" placeholder="e.g., I would like to be included in the quidditch team."></textarea>
+            </div>
+            <div>
+                <button class="btn btn-outline-primary w-100" type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+
+</body></html>
