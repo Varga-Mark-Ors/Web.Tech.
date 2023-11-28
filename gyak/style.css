@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: darkblue;
+}
+
+table {
+    background-color: saddlebrown;
+    border: .1em solid white; /* Border vastagság és típus megadása, valamint a szín beállítása */
+}
+
+.guitar-hero-table {
+    border-collapse: collapse;
+    width: 14em;
+    table-layout: center;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 5px;
+    background-color: white; /* Belső szín (kör belseje) */
+    box-shadow: 0 0 0 2px black; /* Külső körvonal (2px vastag) színe fekete */
+}
+
+.number-row {
+    background-color: #ffffff;
+}
+
+.number {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    height: 40px;
+    border: 2px solid #000000;
+}
+
+.black {
+    background-color: gray;
+}
+
+.blue {
+    background-color: #3498db;
+}
+
+.green {
+    background-color: #2ecc71;
+}
+
+.yellow {
+    background-color: #f1c40f;
+}
+
+.red {
+    background-color: #e74c3c;
+}
